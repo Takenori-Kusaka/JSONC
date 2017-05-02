@@ -1,0 +1,19 @@
+{
+  "Type":{
+    "Temperature":{
+      "Value":25.0,
+      "Maximun":100.0,
+      "Minimun":-100.0
+    },
+    "Humidity":100.0,
+    "Value":"Current",
+    "Resolution":"4",
+    "Minimun":"0",
+    "Maximun":"100"
+  },
+  "Signal":"Number",
+  "Value":"Current",
+  "Resolution":"4",
+  "Minimun":"0",
+  "Maximun":"100"
+}
