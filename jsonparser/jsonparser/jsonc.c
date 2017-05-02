@@ -43,6 +43,21 @@ typedef enum{
 	ALL_VALUE_TYPE
 }VALUE_TYPE;
 
+#define MAX_ARRAY 10
+
+static char *arrayIndex[MAX_ARRAY] = {
+	"0",
+	"1",
+	"2",
+	"3",
+	"4",
+	"5",
+	"6",
+	"7",
+	"8",
+	"9"
+};
+
 static void setValueType( void *pDestination, char *value )
 {
 	unsigned int i;
@@ -134,8 +149,8 @@ static int extraction(Extraction_Arg_t *arg)
 	unsigned int index = 0;
 	unsigned int array = 0;
 	Unit *temp = NULL;
-	Extraction_Arg_t next;
-	next.max = arg->max;
+	Extraction_Arg_t *next = (Unit*)malloc(sizeof(Unit));
+	next[0].max = arg->max;
 
 	/* Allocate the first "Key" and "Value" */
 	arg->unit = (Unit*)malloc(sizeof(Unit));
@@ -160,9 +175,9 @@ static int extraction(Extraction_Arg_t *arg)
 		else if((start!=0)&&(arg->str[j]=='{')){
 
 			/* Pass the next JSON by self-reference */
-			next.str = &arg->str[j];
-			j += extraction(&next);
-			arg->unit[index].value = next.unit;
+			next[0].str = &arg->str[j];
+			j += extraction(&next[0]);
+			arg->unit[index].value = next[0].unit;
 			
 			/* Allocate next save destination */
 			temp = (Unit*)realloc(arg->unit,sizeof(Unit)*(index+2));
@@ -189,17 +204,20 @@ static int extraction(Extraction_Arg_t *arg)
 
 			/* Self-reference to the end of the array */
 			do{
-				next.str = &arg->str[++j];
-				j += extraction(&next)+1;
+				next[array].str = &arg->str[++j];
+				j += extraction(&next[array])+1;
 				start = j + 1;
-				arg->unit[index].value[array].value = next.unit;
+				arg->unit[index].value[array].key = arrayIndex[array];
+				arg->unit[index].value[array].value = next[array].unit;
 				array++;
-				temp = realloc(arg->unit[index].value,sizeof(Unit)*array+1);
+				temp = realloc(arg->unit[index].value,sizeof(Unit)*(array+1));
 				CHECK_ALLOCATE(arg->unit[index].value,temp,-1);
-			}while(arg->str[j+1] == ',');
+				temp = realloc(next,sizeof(Extraction_Arg_t)*(array+1));
+				CHECK_ALLOCATE(next,temp,-1);
+			}while(arg->str[j] == ',');
 			
 			/* Termination determination processing */
-			if( arg->str[++j] == ']' ){
+			if( arg->str[j] == ']' ){
 				j++;
 				temp = (Unit*)realloc(arg->unit,sizeof(Unit)*(index+2));
 				CHECK_ALLOCATE(arg->unit,temp,-1);
@@ -299,7 +317,7 @@ JSONC_ERROR_TYPE JSONC_parseStr( char *str )
 	/* Extract "Key" and "Value" */
 	extractionArg.str = minJson;
 	extractionArg.max = strlen(minJson);
-	success = extraction( &extractionArg );
+	success = extraction( &extractionArg.unit );
 	free(minJson);
 	if( success == 0 ){
 		free(extractionArg.unit);
