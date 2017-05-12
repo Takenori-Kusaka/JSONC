@@ -1,0 +1,65 @@
+MAX_WORD_SIZE 50
+
+typedef struct{
+	char KeyName[MAX_WORD_SIZE];
+	void *value;
+}JSONC_KeySet_t;
+
+MAX_KEY_NUM 14
+
+typedef enum{
+	TEMP_HUMI_SENSOR = 0,
+	SOIL_MOIS_SENSOR,
+	SOIL_TEMP_SENSOR,
+	ILLUMINANCE_SENSOR,
+	MAX_ORCA_SETTING
+}emORCA_SEETING;
+
+typedef enum{
+	EEP_4BS = 0,
+	MAX_4BS_SETTING
+}em4BS_SETTING;
+
+struct{
+	char sendType[10];
+	char senderID[10];
+	struct{
+		unsigned char tempHumiSensor;
+		unsigned char soilMoisSensor;
+		unsigned char soilTempSensor;
+		unsigned char illuminanceSensor;
+	}orcaSetting;
+	struct{
+		char eep[10];
+	}fourBSSetting;
+	float temperature;
+	float humidity;
+	float soilMoisture;
+	float soilTemperature;
+	unsigned int illuminance;
+	unsigned int sendPeriod;
+}params;
+
+const JSONC_KeySet_t orcaSetting[MAX_ORCA_SETTING]={
+	{"TempHumiSensor",(void*)&orcaSetting.TempHumiSensor},
+	{"SoilMoisSensor",(void*)&orcaSetting.soilMoisSensor},
+	{"SoilTempSensor",(void*)&orcaSetting.soilTempSensor},
+	{"IlluminanceSensor",(void*)&orcaSetting.illuminanceSensor}
+};
+
+const JSONC_KeySet_t fourBSSetting[MAX_4BS_SETTING]={
+	{"EEP",(void*)&fourBSSetting.eep}
+};
+
+const JSONC_KeySet_t keylist[MAX_KEY_NUM] = {
+	{"Send Type",(void*)sendType},
+	{"Sender ID",(void*)senderID},
+	{"ORCA_Setting",(void*)&orcaSetting},
+	{"4BS_Setting",(void*)&fourBSSetting},
+	{"Temperature",(void*)&temperature},
+	{"Humidity",(void*)&humidity},
+	{"Soil Moisture",(void*)&soilMoisture},
+	{"Soil Temperature",(void*)&soilTemperature},
+	{"Illuminance",(void*)&illuminance},
+	{"Send Period",(void*)&sendPeriod}
+};

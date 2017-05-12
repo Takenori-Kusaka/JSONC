@@ -10,19 +10,13 @@ typedef enum{
 	JSONC_ALL_ERROR
 }JSONC_ERROR_TYPE;
 
-typedef enum{
-	MAIN_KEY,
-	SUB_KEY,
-	SSUB_KEY,
-	KEY_LEVEL_ALL
-}KEY_LEVEL;
-
 typedef struct{
-	char *keyName[KEY_LEVEL_ALL];
+	char *KeyName;
 	void *value;
-}JsonInit_Arg_t;
+}JSONC_KeySet_t;
 
-extern JSONC_ERROR_TYPE JSONC_Init(JsonInit_Arg_t *arg);
-extern JSONC_ERROR_TYPE JSONC_parseStr( char *str );
+extern const char *keyTypeArray;
+
+extern JSONC_ERROR_TYPE JSONC_parseStr(char *str);
 
 #endif

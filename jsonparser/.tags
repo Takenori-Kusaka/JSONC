@@ -1,0 +1,125 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Send Type	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^  "Send Type":"ORCA",$/;"	function	line:2
+Sender ID	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^  "Sender ID":"12345678",$/;"	function	line:3
+ORCA_Setting	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^  "ORCA_Setting":{$/;"	function	line:4
+TempHumiSensor	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^    "TempHumiSensor":"Enable",$/;"	function	line:5
+SoilMoisSensor	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^    "SoilMoisSensor":"Enable",$/;"	function	line:6
+SoilTempSensor	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^    "SoilTempSensor":"Enable",$/;"	function	line:7
+IlluminanceSensor	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^    "IlluminanceSensor":"Enable"$/;"	function	line:8
+4BS_Setting	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^  "4BS_Setting":{$/;"	function	line:10
+EEP	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^    "EEP":"A5-04-02"$/;"	function	line:11
+Temperature	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^  "Temperature":25.0,$/;"	function	line:13
+Humidity	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^  "Humidity":50.0,$/;"	function	line:14
+Soil Moisture	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^  "Soil Moisture":80.0,$/;"	function	line:15
+Soil Temperature	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^  "Soil Temperature":32.5,$/;"	function	line:16
+Illuminance	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^  "Illuminance":12345,$/;"	function	line:17
+Send Period	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\Example.json	/^  "Send Period":1000$/;"	function	line:18
+Channel	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^  "Channel":[$/;"	function	line:2
+Type	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Type":"Data",$/;"	function	line:4
+Signal	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Signal":"Number",$/;"	function	line:5
+Value	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Value":"Current",$/;"	function	line:6
+Resolution	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Resolution":"4",$/;"	function	line:7
+Minimun	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Minimun":"0",$/;"	function	line:8
+Maximun	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Maximun":"100"$/;"	function	line:9
+Type	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Type":"Data",$/;"	function	line:12
+Signal	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Signal":"Current",$/;"	function	line:13
+Value	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Value":"Current",$/;"	function	line:14
+Resolution	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Resolution":"12",$/;"	function	line:15
+Minimun	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Minimun":"0",$/;"	function	line:16
+Maximun	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Maximun":"0.05"$/;"	function	line:17
+Type	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Type":"Enum",$/;"	function	line:20
+Signal	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Signal":"Acceleration",$/;"	function	line:21
+Value	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Value":"Current",$/;"	function	line:22
+Resolution	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Resolution":"4"$/;"	function	line:23
+Type	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Type":"Data",$/;"	function	line:26
+Signal	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Signal":"Temperature",$/;"	function	line:27
+Value	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Value":"Current",$/;"	function	line:28
+Resolution	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Resolution":"10",$/;"	function	line:29
+Minimun	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Minimun":"-40",$/;"	function	line:30
+Maximun	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Maximun":"60"$/;"	function	line:31
+Type	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Type":"Data",$/;"	function	line:34
+Signal	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Signal":"Humidity",$/;"	function	line:35
+Value	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Value":"Current",$/;"	function	line:36
+Resolution	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Resolution":"8",$/;"	function	line:37
+Minimun	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Minimun":"0",$/;"	function	line:38
+Maximun	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Maximun":"100"$/;"	function	line:39
+Type	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Type":"Enum",$/;"	function	line:42
+Signal	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Signal":"Acceleration",$/;"	function	line:43
+Value	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Value":"Current",$/;"	function	line:44
+Resolution	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Resolution":"4",$/;"	function	line:45
+Type	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Type":"Enum",$/;"	function	line:48
+Signal	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Signal":"Acceleration",$/;"	function	line:49
+Value	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Value":"Current",$/;"	function	line:50
+Resolution	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Resolution":"4",$/;"	function	line:51
+Type	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Type":"Enum",$/;"	function	line:54
+Signal	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Signal":"Acceleration",$/;"	function	line:55
+Value	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Value":"Current",$/;"	function	line:56
+Resolution	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\GenericPrifileSetting.json	/^      "Resolution":"8",$/;"	function	line:57
+CHECK_ALLOCATE	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^#define CHECK_ALLOCATE(/;"	macro	line:7	file:
+MAX_KEY_NUM	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^#define MAX_KEY_NUM /;"	macro	line:17	file:
+TEMP_HUMI_SENSOR	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	TEMP_HUMI_SENSOR = 0,$/;"	enumerator	line:20	enum:__anon1	file:
+SOIL_MOIS_SENSOR	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	SOIL_MOIS_SENSOR,$/;"	enumerator	line:21	enum:__anon1	file:
+SOIL_TEMP_SENSOR	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	SOIL_TEMP_SENSOR,$/;"	enumerator	line:22	enum:__anon1	file:
+ILLUMINANCE_SENSOR	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	ILLUMINANCE_SENSOR,$/;"	enumerator	line:23	enum:__anon1	file:
+MAX_ORCA_SETTING	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	MAX_ORCA_SETTING$/;"	enumerator	line:24	enum:__anon1	file:
+emORCA_SEETING	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^}emORCA_SEETING;$/;"	typedef	line:25	typeref:enum:__anon1	file:
+EEP_4BS	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	EEP_4BS = 0,$/;"	enumerator	line:28	enum:__anon2	file:
+MAX_4BS_SETTING	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	MAX_4BS_SETTING$/;"	enumerator	line:29	enum:__anon2	file:
+em4BS_SETTING	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^}em4BS_SETTING;$/;"	typedef	line:30	typeref:enum:__anon2	file:
+arrayIndex	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^static const char *arrayIndex[10]={"0","1","2","3","4","5","6","7","8","9"};$/;"	variable	line:32	file:
+sendType	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	char sendType[10];$/;"	member	line:35	struct:__anon3	file:
+senderID	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	char senderID[10];$/;"	member	line:36	struct:__anon3	file:
+tempHumiSensor	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^		unsigned char tempHumiSensor[10];$/;"	member	line:38	struct:__anon3::__anon4	file:
+soilMoisSensor	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^		unsigned char soilMoisSensor[10];$/;"	member	line:39	struct:__anon3::__anon4	file:
+soilTempSensor	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^		unsigned char soilTempSensor[10];$/;"	member	line:40	struct:__anon3::__anon4	file:
+illuminanceSensor	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^		unsigned char illuminanceSensor[10];$/;"	member	line:41	struct:__anon3::__anon4	file:
+orcaSetting	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	}orcaSetting;$/;"	member	line:42	struct:__anon3	typeref:struct:__anon3::__anon4	file:
+eep	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^		char eep[10];$/;"	member	line:44	struct:__anon3::__anon5	file:
+fourBSSetting	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	}fourBSSetting;$/;"	member	line:45	struct:__anon3	typeref:struct:__anon3::__anon5	file:
+temperature	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	float temperature;$/;"	member	line:46	struct:__anon3	file:
+humidity	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	float humidity;$/;"	member	line:47	struct:__anon3	file:
+soilMoisture	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	float soilMoisture;$/;"	member	line:48	struct:__anon3	file:
+soilTemperature	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	float soilTemperature;$/;"	member	line:49	struct:__anon3	file:
+illuminance	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	unsigned int illuminance;$/;"	member	line:50	struct:__anon3	file:
+sendPeriod	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	unsigned int sendPeriod;$/;"	member	line:51	struct:__anon3	file:
+params	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^}params;$/;"	variable	line:52	typeref:struct:__anon3
+orcaSetting	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^const JSONC_KeySet_t orcaSetting[MAX_ORCA_SETTING+1]={$/;"	variable	line:54
+fourBSSetting	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^const JSONC_KeySet_t fourBSSetting[MAX_4BS_SETTING+1]={$/;"	variable	line:62
+keylist	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^const JSONC_KeySet_t keylist[MAX_KEY_NUM+1] = {$/;"	variable	line:67
+Unit	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^typedef struct Unit{$/;"	struct	line:82	file:
+key	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	char *key;$/;"	member	line:83	struct:Unit	file:
+value	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	struct Unit *value;$/;"	member	line:84	struct:Unit	typeref:struct:Unit::Unit	file:
+Unit	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^}Unit;$/;"	typedef	line:85	typeref:struct:Unit	file:
+unit	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	Unit *unit;$/;"	member	line:88	struct:__anon6	file:
+str	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	char *str;$/;"	member	line:89	struct:__anon6	file:
+max	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	size_t max;$/;"	member	line:90	struct:__anon6	file:
+Extraction_Arg_t	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^}Extraction_Arg_t;$/;"	typedef	line:91	typeref:struct:__anon6	file:
+VALUE_TYPE_INTEGER	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	VALUE_TYPE_INTEGER,$/;"	enumerator	line:94	enum:__anon7	file:
+VALUE_TYPE_FLOAT	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	VALUE_TYPE_FLOAT,$/;"	enumerator	line:95	enum:__anon7	file:
+VALUE_TYPE_STRING	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	VALUE_TYPE_STRING,$/;"	enumerator	line:96	enum:__anon7	file:
+ALL_VALUE_TYPE	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^	ALL_VALUE_TYPE$/;"	enumerator	line:97	enum:__anon7	file:
+VALUE_TYPE	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^}VALUE_TYPE;$/;"	typedef	line:98	typeref:enum:__anon7	file:
+setValueType	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^static void setValueType(void *pDestination, char *value)$/;"	function	line:100	file:	signature:(void *pDestination, char *value)
+cmpKeyList	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^static void cmpKeyList(Unit *unit, JSONC_KeySet_t *keySet){$/;"	function	line:142	file:	signature:(Unit *unit, JSONC_KeySet_t *keySet)
+extraction	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^static int extraction(Extraction_Arg_t *arg)$/;"	function	line:160	file:	signature:(Extraction_Arg_t *arg)
+JSONC_parseStr	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.c	/^JSONC_ERROR_TYPE JSONC_parseStr(char *str)$/;"	function	line:294	signature:(char *str)
+__JSONC__H__	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.h	/^#define __JSONC__H__$/;"	macro	line:2
+JSONC_SUCCESS	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.h	/^	JSONC_SUCCESS,$/;"	enumerator	line:5	enum:__anon8
+JSONC_ILLEGAL_STR	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.h	/^	JSONC_ILLEGAL_STR,$/;"	enumerator	line:6	enum:__anon8
+JSONC_FAIL_ALLOCATE	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.h	/^	JSONC_FAIL_ALLOCATE,$/;"	enumerator	line:7	enum:__anon8
+JSONC_MISSING_END_POINT	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.h	/^	JSONC_MISSING_END_POINT,$/;"	enumerator	line:8	enum:__anon8
+JSONC_OVER_MAX_INIT	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.h	/^	JSONC_OVER_MAX_INIT,$/;"	enumerator	line:9	enum:__anon8
+JSONC_ALL_ERROR	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.h	/^	JSONC_ALL_ERROR$/;"	enumerator	line:10	enum:__anon8
+JSONC_ERROR_TYPE	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.h	/^}JSONC_ERROR_TYPE;$/;"	typedef	line:11	typeref:enum:__anon8
+KeyName	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.h	/^	char *KeyName;$/;"	member	line:14	struct:__anon9
+value	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.h	/^	void *value;$/;"	member	line:15	struct:__anon9
+JSONC_KeySet_t	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\jsonc.h	/^}JSONC_KeySet_t;$/;"	typedef	line:16	typeref:struct:__anon9
+maxKeySize	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\main.c	/^const unsigned char maxKeySize = 20;$/;"	variable	line:7
+CHECK_ALLOCATE	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\main.c	/^#define CHECK_ALLOCATE(/;"	macro	line:9	file:
+main_init	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\main.c	/^void main_init(void)$/;"	function	line:19	signature:(void)
+main	C:\Users\t-kusaka\Documents\Visual Studio 2013\Projects\jsonparser\jsonparser\main.c	/^int main() {$/;"	function	line:23

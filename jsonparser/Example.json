@@ -1,0 +1,19 @@
+{
+  "Send Type":"ORCA",
+  "Sender ID":"12345678",
+  "ORCA_Setting":{
+    "TempHumiSensor":"Enable",
+    "SoilMoisSensor":"Enable",
+    "SoilTempSensor":"Enable",
+    "IlluminanceSensor":"Enable"
+  },
+  "4BS_Setting":{
+    "EEP":"A5-04-02"
+  },
+  "Temperature":25.0,
+  "Humidity":50.0,
+  "Soil Moisture":80.0,
+  "Soil Temperature":32.5,
+  "Illuminance":12345,
+  "Send Period":1000
+}
